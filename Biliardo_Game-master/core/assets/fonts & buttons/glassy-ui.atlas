@@ -1,0 +1,62 @@
+glassy-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 1, 508
+  size: 297, 106
+  split: 49, 48, 52, 51
+  pad: 28, 27, 7, 7
+  orig: 297, 106
+  offset: 0, 0
+  index: -1
+button-down
+  rotate: false
+  xy: 344, 860
+  size: 297, 106
+  split: 49, 48, 52, 51
+  pad: 28, 27, 7, 7
+  orig: 297, 106
+  offset: 0, 0
+  index: -1
+button-small
+  rotate: false
+  xy: 1, 460
+  size: 130, 46
+  split: 21, 21, 22, 20
+  orig: 130, 46
+  offset: 0, 0
+  index: -1
+button-small-down
+  rotate: false
+  xy: 344, 812
+  size: 130, 46
+  split: 21, 21, 22, 20
+  orig: 130, 46
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 1, 1
+  size: 22, 40
+  split: 6, 6, 5, 5
+  pad: 8, 8, 7, 7
+  orig: 22, 40
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 93, 338
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+default.background
+  rotate: false
+  xy: 0, 0
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
