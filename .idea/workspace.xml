@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b1bfa0-474c-4369-9d27-75cec57f238a" name="Default Changelist" comment="fix some bugs">
+    <list default="true" id="73b1bfa0-474c-4369-9d27-75cec57f238a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biliardo_Game-master/core/src/com/mygdx/game/Screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biliardo_Game-master/core/src/com/mygdx/game/Screens/GameScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597767858369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix some bugs">
+      <created>1597769478567</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597769478567</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix some bugs">
+      <created>1597769569915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597769569915</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -78,10 +91,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="138" y="21" key="#Notifications" timestamp="1597767687538">
+    <state x="138" y="21" key="#Notifications" timestamp="1597769731884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="138" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597767687538" />
+    <state x="138" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597769731884" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597768351178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -90,10 +103,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597766754460" />
-    <state x="353" y="0" key="CommitChangelistDialog2" timestamp="1597769475951">
+    <state x="353" y="0" key="CommitChangelistDialog2" timestamp="1597769650675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597769475951" />
+    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597769650675" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597769223361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
