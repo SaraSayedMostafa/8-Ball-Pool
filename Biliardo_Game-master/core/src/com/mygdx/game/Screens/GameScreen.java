@@ -44,11 +44,13 @@ public class GameScreen implements Screen {
     public Label.LabelStyle labelStyle;
     public CleanLabel AnimaiteLabel1 ,AnimaiteLabel2;
     public static Sound Ballhit , pocktedball;
+    public Sprite VSLogo;
 
 
     @Override
     public void show() {
 
+        VSLogo =new Sprite();
 
         world = new World(new Vector2(0,0),true); // x= 0 and y =0 means no gravity
         debugRenderer = new Box2DDebugRenderer();
