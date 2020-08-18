@@ -81,14 +81,29 @@
       <option name="project" value="LOCAL" />
       <updated>1597769569915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git add">
+      <created>1597770278106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597770278106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="git add">
+      <created>1597770458346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597770458346</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="edit" />
     <MESSAGE value="fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
+    <MESSAGE value="git add" />
+    <option name="LAST_COMMIT_MESSAGE" value="git add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="138" y="21" key="#Notifications" timestamp="1597769731884">
@@ -103,18 +118,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597766754460" />
-    <state x="353" y="0" key="CommitChangelistDialog2" timestamp="1597770437614">
+    <state x="353" y="0" key="CommitChangelistDialog2" timestamp="1597770457441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597770437614" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597769223361">
+    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597770457441" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597771757014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597769223361" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597768152824">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597771757014" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597770514749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597768152824" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597770514749" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595471628837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
