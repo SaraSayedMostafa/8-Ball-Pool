@@ -108,8 +108,9 @@ public class GameScreen implements Screen {
         LabelForPlayer2.setBounds(-10, .2f, MyGdxGame.VirtualWidth, 2);
         LabelForPlayer2.setFontScale(0.05f, 0.05f);
         AnimaiteLabel2=new CleanLabel(2,LabelForPlayer2);
-        Ballhit=Gdx.audio.newSound(Gdx.files.internal("Sounds/ballshit.mp3"));
-        pocktedball=Gdx.audio.newSound(Gdx.files.internal("Sounds/pocketedball.mp3"));
+
+      //  Ballhit=Gdx.audio.newSound(Gdx.files.internal("Sounds/ballshit.mp3"));
+       // pocktedball=Gdx.audio.newSound(Gdx.files.internal("Sounds/pocketedball.mp3"));
 
 
     }

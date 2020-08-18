@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b1bfa0-474c-4369-9d27-75cec57f238a" name="Default Changelist" comment="" />
+    <list default="true" id="73b1bfa0-474c-4369-9d27-75cec57f238a" name="Default Changelist" comment="fix some bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biliardo_Game-master/core/src/com/mygdx/game/Screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biliardo_Game-master/core/src/com/mygdx/game/Screens/GameScreen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597766936465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit">
+      <created>1597767002068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597767002068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -60,26 +70,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="138" y="21" key="#Notifications" timestamp="1595472443449">
+    <state x="138" y="21" key="#Notifications" timestamp="1597767687538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="138" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1595472443449" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597766839579">
+    <state x="138" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597767687538" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597767140407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597766839579" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597767140407" />
     <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597766754460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597766754460" />
-    <state x="267" y="0" key="CommitChangelistDialog2" timestamp="1597766980956">
+    <state x="267" y="0" key="CommitChangelistDialog2" timestamp="1597767747303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="267" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597766980956" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597766581630">
+    <state x="267" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597767747303" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597767678980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597766581630" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597767678980" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595471628837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
