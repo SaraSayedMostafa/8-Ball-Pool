@@ -11,7 +11,7 @@ import com.mygdx.game.Screens.GameScreen;
 
 public class Ball {
 
-    private final float RADIUS = 0.65f;
+    private final float RADIUS = 0.47f;
 
 
     private Vector2 Position;

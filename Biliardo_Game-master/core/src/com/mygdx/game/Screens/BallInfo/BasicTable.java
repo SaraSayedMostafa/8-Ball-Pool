@@ -8,7 +8,6 @@ import game.MyGdxGame;
 public class BasicTable {
     private Sprite tablesprite;
     private CueBall cueball; // white ball
-    private Stick stick;
     private BlackBall blackball;
     private SolidBall solidball[]= new SolidBall[7];
     private StripeBall stripeball[]= new StripeBall[7];
@@ -22,7 +21,7 @@ public class BasicTable {
     public BasicTable(Sprite tablesprite)
     {
 
-       this.tablesprite=tablesprite;
+        this.tablesprite=tablesprite;
         tablesprite.setPosition(-MyGdxGame.VirtualWidth/42,-MyGdxGame.VirtualHeight/45);
         tablesprite.setSize(MyGdxGame.VirtualWidth/20,MyGdxGame.VirtualHeight/20);
         SetupTable();
@@ -31,14 +30,18 @@ public class BasicTable {
 
     public void SetupTable()
     {
-        cueball = new CueBall(	new Vector2(-10,0),	new Sprite(new Texture("Assets/whiteBall1.png")));
+        cueball = new CueBall(	new Vector2(-10,0),	new Sprite(new Texture("Assets/whiteBall.png")));
 
-        edge1 =  new Edge(new Vector2(-1,-7.1f),new Vector2(0.009f,-8.5f),new Vector2(-1,7.1f),new Vector2(0.009f,8.5f),new Vector2(19f,0)); //right border
-        edge2 =  new Edge(new Vector2(1,-7.1f),new Vector2(0.009f,-8.5f ),new Vector2(1,7.1f),new Vector2(0.009f,8.5f),new Vector2(-20f,0)); //left border
-        edge3 =  new Edge(new Vector2(-11f,0.99f),new Vector2(-10.5f,0.009f ),new Vector2(4.5f,0.99f),new Vector2(5.5f,0.009f),new Vector2(11.8f,-9.65f)); /// bottom border right
-        edge4 =  new Edge(new Vector2(-4.9f,0.99f),new Vector2(-5.5f,0.009f ),new Vector2(10.3f,0.99f),new Vector2(10.3f,0.009f),new Vector2(-12.3f,-9.65f));////bottom border left
-        edge5 =  new Edge(new Vector2(-11f,-0.99f),new Vector2(-10.5f,0.009f ),new Vector2(4.9f,-0.99f),new Vector2(5.5f,0.009f),new Vector2(11.8f,9.65f));  /// up border right
-        edge6 =  new Edge(new Vector2(-4.9f,-0.99f),new Vector2(-5.5f,0.009f ),new Vector2(10.3f,-0.99f),new Vector2(10.8f,0.009f),new Vector2(-12.3f,9.65f)); ////  up border left
+        edge1 =  new Edge(new Vector2(-1.4f,-7.0f),new Vector2(-0.6f,-7.7f),new Vector2(-1.4f,7.1f),new Vector2(-0.6f,7.8f),new Vector2(19f,0)); //right border
+
+        edge2 =  new Edge(new Vector2(1.2f,-7.0f),new Vector2(0.4f,-7.7f ),new Vector2(1.2f,7.0f),new Vector2(0.4f,7.7f),new Vector2(-20f,0)); //left border
+
+        edge3 =  new Edge(new Vector2(-11.15f,0.77f),new Vector2(-11.5f,0.009f ),new Vector2(4.5f,0.77f),new Vector2(5.5f,0.009f),new Vector2(11.8f,-8.9f)); /// bottom border right
+
+        edge4 =  new Edge(new Vector2(-5.2f,0.77f),new Vector2(-5.9f,0.009f ),new Vector2(10.5f,0.77f),new Vector2(10.8f,0.009f),new Vector2(-12.3f,-8.9f));////bottom border left
+
+        edge5 =  new Edge(new Vector2(-11.15f,-0.77f),new Vector2(-11.5f,0.009f ),new Vector2(4.5f,-0.77f),new Vector2(5.2f,0.009f),new Vector2(11.8f,8.9f));  /// up border right
+        edge6 =  new Edge(new Vector2(-5.2f,-0.77f),new Vector2(-5.9f,0.009f ),new Vector2(10.5f,-0.77f),new Vector2(10.8f,0.009f),new Vector2(-12.3f,8.9f)); ////  up border left
 
     }
     public void makeatriangle()
@@ -85,7 +88,7 @@ public class BasicTable {
 
 
     public static float[] rowXs(int rowNumber) { // a function to make the triangle balls shape
-        float R = 0.75f; // radius of the ball
+        float R = 0.55f; // radius of the ball
         switch (rowNumber) {
             case 0: return new float[] {0};
             case 1: return new float[] {-R, R};

@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d1728a-a9f9-407f-8755-ef3e1edbe224" name="Default Changelist" comment="" />
+    <list default="true" id="66d1728a-a9f9-407f-8755-ef3e1edbe224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Biliardo_Game-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/assets/Sounds/ballshit.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/assets/Sounds/pocketedball.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/Assets/ball 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/Assets/ball 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/Assets/ball 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/Assets/ball 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/Assets/whiteBall1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/BasicTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/BasicTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/CleanLabel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/CleanLabel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/CleanLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/CleanLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/FoulSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/FoulSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/MyContactListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/MyContactListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Player$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/BallInfo/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/mygdx/game/Screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/BasicTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/BasicTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/CleanLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/CleanLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/FoulSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/FoulSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/MyContactListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/MyContactListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Screens/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/Assets/ball 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/Assets/ball 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/Assets/ball 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/resources/main/Assets/ball 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/resources/main/Assets/whiteBall1.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +104,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bApd87GX7N3L4Izq2Ou0y4QTqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -71,7 +112,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets/Sounds" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -80,11 +122,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2NOWWWW\Biliardo_Game-master\core\assets\Sounds" />
+      <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2NOWWWW\Biliardo_Game-master\core\assets\Assets" />
       <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2\Biliardo_Game-master\core\assets\effects" />
       <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2\Biliardo_Game-master\core\assets\Assets" />
       <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2\Biliardo_Game-master\core\assets\Sounds" />
-      <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2\Biliardo_Game-master\core\assets\fonts &amp; buttons" />
-      <recent name="C:\Users\moustafa syed\Downloads\Bil 8 ball pool proj2\Biliardo_Game-master\core\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Biliardo_Game-master:desktop [run]">
@@ -134,8 +176,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ParticleEditor (1)" />
       <item itemvalue="Application.ParticleEditor" />
+      <item itemvalue="Application.ParticleEditor (1)" />
       <item itemvalue="Gradle.Biliardo_Game-master:desktop [run]" />
     </list>
     <recent_temporary>
@@ -157,7 +199,19 @@
       <option name="presentableId" value="Default" />
       <updated>1588084836520</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix some bugs">
+      <created>1595524641401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595524641401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Notifications" timestamp="1588088016723">
@@ -184,10 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1595419193773" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1595459271087">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1595758851655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595459271087" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595758851655" />
     <state x="28" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595451294622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,62 +250,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588174506695" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1595441790340">
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1595524638854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595441790340" />
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom" timestamp="1595467073437">
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595524638854" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1595747162372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.0.center" timestamp="1595467073437">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595747162372" />
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.0.left" timestamp="1595467073437">
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.0.right" timestamp="1595467073437">
+    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.1.bottom" timestamp="1595467073438">
+    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595467073438" />
-    <state width="1323" height="95" key="GridCell.Tab.1.center" timestamp="1595467073437">
+    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.1.bottom" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.1.left" timestamp="1595467073437">
+    <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.1.center" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595467073437" />
-    <state width="1323" height="95" key="GridCell.Tab.1.right" timestamp="1595467073438">
+    <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.1.left" timestamp="1595763245193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595467073438" />
+    <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
+    <state width="1323" height="206" key="GridCell.Tab.1.right" timestamp="1595763245193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595763245193" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588373166963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588373166963" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595438372204">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595746972813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595438372204" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595746972813" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595524601580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1595524601579" />
-    <state x="259" y="100" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595452458180">
+    <state x="259" y="100" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595752518500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="100" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595452458180" />
-    <state x="339" y="164" key="run.anything.popup" timestamp="1595424540717">
+    <state x="259" y="100" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595752518500" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1595761219460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595424540717" />
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595761219460" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595452742909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,7 +324,7 @@
       <breakpoints>
         <line-breakpoint type="java-field">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java</url>
-          <line>32</line>
+          <line>31</line>
           <properties field="Name" class="com.mygdx.game.Screens.BallInfo.Player" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -280,34 +338,24 @@
           <line>76</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/MainMenue.java</url>
           <line>49</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/GetName.java</url>
           <line>96</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/GameScreen.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/game/MyGdxGame.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java</url>
-          <line>131</line>
+          <line>130</line>
           <properties class="com.mygdx.game.Screens.BallInfo.Player">
             <option name="EMULATED" value="true" />
           </properties>
@@ -315,7 +363,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/core/src/com/mygdx/game/Screens/BallInfo/Player.java</url>
-          <line>156</line>
+          <line>155</line>
           <properties class="com.mygdx.game.Screens.BallInfo.Player" method="isStripeBall">
             <option name="EMULATED" value="true" />
           </properties>

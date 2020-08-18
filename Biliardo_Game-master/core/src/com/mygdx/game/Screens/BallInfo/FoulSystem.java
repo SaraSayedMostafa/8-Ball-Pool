@@ -33,6 +33,7 @@ public class FoulSystem {
                 checkchangetheplayerturn=false;
                 Player.playeroneturn= !Player.playeroneturn;
                 checknoballs=true;
+
                 System.out.println("noballs1");
 
             }
@@ -41,8 +42,11 @@ public class FoulSystem {
                 checkchangetheplayerturn=false;
                 Player.playeroneturn= !Player.playeroneturn;
                 checknoballs=true;
+
                 System.out.println("noballs2");
             }
+            else if(checkfirstround)
+                foulnumber=5;
 
 
             if(checkchangetheplayerturn)
@@ -154,14 +158,17 @@ public class FoulSystem {
         for(Body body:GameScreen.tmpBodies)
         {
 
-            if((body.getPosition().y>=8.9f||body.getPosition().y<=-8.9f)&&body.getLinearDamping()!=0) { //if the balls touched the holes
+            if((body.getPosition().y>=8.6f||body.getPosition().y<=-8.6f||body.getPosition().x>=17.4||body.getPosition().x<=-18.7f)&&body.getLinearDamping()!=0) { //if the balls touched the holes
 
                 if(body.equals(GameScreen.table.getCueball().getBall()))
                 {
-
+                    GameScreen.pocktedball.play();
+                   // GameScreen.Ballhit.play();
+                    //GameScreen.Ballhit.dispose();
                     GameScreen.table.getCueball().getBall().setLinearVelocity(0,0);
                     GameScreen.table.getCueball().getBall().setTransform(100,100,0);
                     GameScreen.checkcueball=true;
+
                     //hhereee
                     System.out.println("you dropped the cueball in the hole");
                     if(!checknoballs) {
@@ -171,13 +178,10 @@ public class FoulSystem {
                 }
                 else {
 
-                    body.setTransform(21.7f, GameScreen.y, 0);
-                    GameScreen.y+=1;
-
                     if(body.equals(GameScreen.table.getBlackball().getBall())&&!GameScreen.table.getBlackball().isIsout()) {
-
-                          GameScreen.table.getBlackball().setIsout(true);
-                          ((Game)(Gdx.app.getApplicationListener())).setScreen(new EndGameScreen());
+                        GameScreen.pocktedball.play();
+                        GameScreen.table.getBlackball().setIsout(true);
+                        ((Game)(Gdx.app.getApplicationListener())).setScreen(new EndGameScreen());
                     }
 
                     for(int i=0;i<7;i++)
@@ -186,6 +190,14 @@ public class FoulSystem {
                         if(body.equals(GameScreen.table.getSolidball()[i].getBall())) {
                             if(GameScreen.table.getSolidball()[i].isIsout())
                                 continue;
+
+                            GameScreen.pocktedball.play();
+                            body.setLinearVelocity(0,0);
+                            body.setAngularVelocity(0);
+
+                            body.setTransform(21.1f, GameScreen.y, 0);
+                            GameScreen.y+=1;
+
 
                             GameScreen.table.getSolidball()[i].setIsout(true);
                             body.setLinearVelocity(0,0);
@@ -234,6 +246,15 @@ public class FoulSystem {
                             if(GameScreen.table.getStripeball()[i].isIsout())
                                 continue;
 
+
+
+                            GameScreen.pocktedball.play();
+                            body.setLinearVelocity(0,0);
+                            body.setAngularVelocity(0);
+
+                            body.setTransform(21.1f, GameScreen.y, 0);
+                            GameScreen.y+=1;
+
                             GameScreen.table.getStripeball()[i].setIsout(true);
                             body.setLinearVelocity(0,0);
                             body.setAngularVelocity(0);
@@ -277,10 +298,12 @@ public class FoulSystem {
                         }
 
                     }
+
                 }
             }
 
         }
+    //    GameScreen.Ballhit.dispose();
     }
 
 
@@ -299,6 +322,7 @@ public class FoulSystem {
         }
         return true;
     }
+
 
 
 

@@ -1,7 +1,6 @@
 package com.mygdx.game.Screens.BallInfo;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 import com.mygdx.game.Screens.GameScreen;
@@ -14,7 +13,7 @@ public class Player {
     private boolean Black_touched;
     private boolean Black_in_pocket;
     private boolean checkdropedaball;
-    public Sprite playerspirte;
+
     public static boolean playeroneturn=true;
     private int balls_in_pocket;
     private int power;
@@ -126,20 +125,20 @@ public class Player {
         //body.setTransform(0,0,0);
 
 
-        stick.getStick().setTransform(10, 30, 0); // puts the stick away
+
 
 
         vv = new Vector3((Gdx.input.getX()), Gdx.input.getY(), 0);//get mouse position
         GameScreen.camera.unproject(vv);//translate this position to our world coordinate
         if(vv.x>0)
-            vv.x=Math.min(vv.x,20);
+            vv.x=Math.min(vv.x,17.3f);
         else
-            vv.x=Math.max(vv.x,-21);
+            vv.x=Math.max(vv.x,-18.2f);
 
         if(vv.y>0)
-            vv.y=Math.min(vv.y,10);
+            vv.y=Math.min(vv.y,7.5f);
         else
-            vv.y=Math.max(vv.y,-10);
+            vv.y=Math.max(vv.y,-7.5f);
 
 
         GameScreen.table.getCueball().getBall().setTransform(vv.x,vv.y,0);
@@ -184,14 +183,6 @@ public class Player {
 
     public void setBlack_in_pocket(boolean black_in_pocket) {
         Black_in_pocket = black_in_pocket;
-    }
-
-    public Sprite getPlayerspirte() {
-        return playerspirte;
-    }
-
-    public void setPlayerspirte(Sprite playerspirte) {
-        this.playerspirte = playerspirte;
     }
 
     public static boolean isPlayeroneturn() {
